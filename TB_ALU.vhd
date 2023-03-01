@@ -1,0 +1,17 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+Entity TB_ALU is
+end entity;
+
+architecture arch_TB_ALU of TB_ALU is
+signal A,B,Y : std_logic_vector(0 to 31);
+signal OP : std_logic_vector(0 to 1);
+signal N :  std_logic;
+begin
+E1:Entity work.ALU port map(A,B,OP,Y,N);
+A<=std_logic_vector(To_signed(10,32));
+B<=std_logic_vector(To_signed(20,32));
+OP<="00", "01" after 5 ns, "10" after 10 ns, "11" after 15 ns;
+end architecture;
