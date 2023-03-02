@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 Entity extend_sign is
-generic(N:positive);
+generic(N:positive :=32);
 Port(	E : in std_logic_vector(N-1 downto 0);
 	S : out std_logic_vector(31 downto 0));
 end entity;

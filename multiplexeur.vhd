@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 Entity multiplexeur is
-generic(N:positive);
+generic(N:positive :=32);
 Port(	A,B : in std_logic_vector(N-1 downto 0);
 	M : in std_logic;
 	S : out std_logic_vector(N-1 downto 0));
