@@ -20,10 +20,10 @@ function init_banc return table is
 variable result : table;
 
 begin
-for i in 14 downto 0 loop
+for i in 62 downto 0 loop
 	result(i) := (others=>'0');
 end loop;
-	result(15) :=X"00000030";
+	result(63) :=X"00000038";--56 en decimal
 	return result;
 end init_banc;
 

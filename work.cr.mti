@@ -28,20 +28,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading entity ALU
 -- Loading entity Registers
 
-} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/processing_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/processing_unit.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity TB_multiplexeur
--- Compiling architecture arch_TB_multiplexeur of TB_multiplexeur
--- Loading entity Registers
--- Loading entity ALU
--- Loading entity memory
--- Loading entity extend_sign
--- Loading entity multiplexeur
-
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/TB_multiplexeur.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/TB_multiplexeur.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -99,6 +85,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity TB_ALU_and_registers
 -- Compiling architecture arch_TB_ALU_and_registers of TB_ALU_and_registers
 -- Loading entity ALU_and_registers
+
+} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TB_processing_unit
+-- Compiling architecture arch_TB_processing_unit of TB_processing_unit
+-- Loading entity processing_unit
 
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016

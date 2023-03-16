@@ -15,5 +15,5 @@ signal N : std_logic;
 begin
 E0:Entity work.ALU port map(A,B,OP,W,N);
 E1:Entity work.Registers port map(CLK,W,WE,RESET,RW,RA,RB,A,B);
-recopie<=w;
+recopie<=W;--Pas d'obligation de faire une recopie/ le busW peut être une sortie
 end architecture;
