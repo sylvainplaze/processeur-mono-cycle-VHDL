@@ -34,7 +34,7 @@ begin
 process(CLK,RESET)
 begin
 	if (RESET='1') then 
-	--Code
+		banc<=init_banc;
 	elsif (rising_edge(CLK)) then
 		if (WE='1') then
 			Banc(To_integer(unsigned(RW)))<=W;

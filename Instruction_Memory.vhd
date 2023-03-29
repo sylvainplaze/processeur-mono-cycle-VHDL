@@ -2,15 +2,14 @@ Library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-Entity memory is
-port(	CLK : in std_logic;
-	DataIn : in std_logic_vector(31 downto 0);
-	DataOut : out std_logic_vector(31 downto 0);
-	addr : in std_logic_vector(5 downto 0);
-	WrEn : in std_logic);
+Entity Instruction_Memory is
+generic(N : positive :=32);
+port(	addr : in std_logic_vector(N-1 downto 0);
+	Instruction : out std_logic_vector(N-1 downto 0));
 end entity;
 
-Architecture arch_memory of memory is
+
+Architecture arch_Instruction_Memory of Instruction_Memory is
 
 --Déclaration Type Tableau Memoire
 type table is array (63 downto 0) of std_logic_vector(31 downto 0);
@@ -31,18 +30,8 @@ end init_banc;
 signal Banc: table:=init_banc;
 
 begin
---Partie Ecriture:
-process(CLK)
-begin
-	if (RESET='1') then 
-		banc<=init_banc;
-	elsif Rising_edge(CLK) then
-		if (WrEn='1') then
-			Banc(To_integer(unsigned(addr)))<=DataIn;
-		end if;
-	end if;
-end process;
+
 --Partie Lecture:
-DataOut<=Banc(To_integer(unsigned(addr)));
+Instruction<=Banc(To_integer(unsigned(addr)));
 end architecture;
 
