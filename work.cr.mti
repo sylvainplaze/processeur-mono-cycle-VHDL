@@ -100,6 +100,25 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling architecture arch_TB_memory of TB_memory
 -- Loading entity memory
 
+} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TB_ALU_and_registers
+-- Compiling architecture arch_TB_ALU_and_registers of TB_ALU_and_registers
+-- Loading entity ALU_and_registers
+
+} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/Unit_control.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/Unit_control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Unit_control
+-- Compiling architecture arch_Unit_control of Unit_control
+
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/extend_sign.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/extend_sign.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -117,16 +136,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity multiplexeur
 -- Compiling architecture arch_multiplexeur of multiplexeur
-
-} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity TB_ALU_and_registers
--- Compiling architecture arch_TB_ALU_and_registers of TB_ALU_and_registers
--- Loading entity ALU_and_registers
 
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
