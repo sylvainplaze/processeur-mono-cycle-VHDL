@@ -6,12 +6,12 @@ Entity TB_Instruction_Management_Unit is
 end entity;
 
 architecture arch_TB_Instruction_Management_Unit of TB_Instruction_Management_Unit is
-signal J : positive :=24;
-signal N : positive :=32; 
-signal nPCsel,RESET : std_logic;
+constant J : positive :=24;
+constant N : positive :=32; 
+signal nPCsel,RESET : std_logic :='0';
 signal CLK : std_logic :='0';
-signal Offset : std_logic_vector(J-1 downto 0);
-signal Instruction : std_logic_vector(N-1 downto 0);
+signal Offset : std_logic_vector(J-1 downto 0) :=(others=>'0');
+signal Instruction : std_logic_vector(N-1 downto 0):=(others=>'0');
 begin
 
 E0:Entity work.Instruction_Management_Unit generic map(N,J) port map(nPCsel,RESET,CLK,Offset,Instruction);
@@ -25,39 +25,49 @@ begin
 	nPCsel<='0';
 	Offset<=std_logic_vector(To_signed(0,J));
 	wait for 2 ns;
-	
-	--Attente:
-	RESET<='0';
-	nPCsel<='1';
-	Offset<=std_logic_vector(To_signed(0,J));
-	wait for 4 ns;
-	
-	--Commande 10:
-	RESET<='0';
-	nPCsel<='1';
-	Offset<=std_logic_vector(To_signed(10,J));
-	wait for 6 ns;
 
-	--Reset:
-	RESET<='1';
-	nPCsel<='1';
-	wait for 7 ns;
-	Offset<=std_logic_vector(To_signed(0,J));
-	wait for 8 ns;
-
-	--Commande 3:
-	RESET<='0';
-	nPCsel<='0';
-	Offset<=std_logic_vector(To_signed(3,J));
-	wait for 10 ns;
-	
-	--Reset:
-	RESET<='1';
-	nPCsel<='0';
-	wait for 11 ns;
-	Offset<=std_logic_vector(To_signed(0,J));
-	wait for 12 ns;
-	
 end process;
+
+--process
+--begin
+--	--Initialisation:
+--	RESET<='1';
+--	nPCsel<='0';
+--	Offset<=std_logic_vector(To_signed(0,J));
+--	wait for 2 ns;
+--	
+--	--Attente:
+--	RESET<='0';
+--	nPCsel<='1';
+--	Offset<=std_logic_vector(To_signed(0,J));
+--	wait for 4 ns;
+--	
+--	--Commande 10:
+--	RESET<='0';
+--	nPCsel<='1';
+--	Offset<=std_logic_vector(To_signed(2,J));
+--	wait for 6 ns;
+--
+--	--Reset:
+--	RESET<='1';
+--	nPCsel<='1';
+--	wait for 7 ns;
+--	Offset<=std_logic_vector(To_signed(0,J));
+--	wait for 8 ns;
+--
+--	--Commande 3:
+--	RESET<='0';
+--	nPCsel<='0';
+--	Offset<=std_logic_vector(To_signed(3,J));
+--	wait for 10 ns;
+--	
+--	--Reset:
+--	RESET<='1';
+--	nPCsel<='0';
+--	wait for 11 ns;
+--	Offset<=std_logic_vector(To_signed(0,J));
+--	wait for 12 ns;
+--	
+--end process;
 
 end architecture;

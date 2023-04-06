@@ -6,8 +6,8 @@ Entity TB_Instruction_Incrementer is
 end entity;
 
 architecture arch_TB_Instruction_Incrementer of TB_Instruction_Incrementer is
-signal N : positive :=32;
-signal J : positive :=24;
+constant N : positive :=32;
+constant J : positive :=24;
 signal nPCsel,RESET : std_logic;
 signal CLK : std_logic :='0';
 signal offset : std_logic_vector(J-1 downto 0);

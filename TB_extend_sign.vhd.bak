@@ -17,5 +17,6 @@ component extend_sign is
 end component;
 
 begin
+E<="010101","011111" after 10 ps,"100000" after 20 ps, "111111" after 30 ps;
 E0:Entity work.extend_sign generic map(N) port map(E,S);
 end architecture;

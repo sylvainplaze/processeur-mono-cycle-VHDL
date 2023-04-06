@@ -22,9 +22,9 @@ V@d=o3VP9KnV?8n:[TdYC?0
 !s100 [JI7YHHMi@VUGG6;J]U;?0
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1679586437
+Z8 !s110 1680799177
 !i10b 1
-Z9 !s108 1679586437.000000
+Z9 !s108 1680799177.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/ALU.vhd|
 Z11 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/ALU.vhd|
 !i113 1
@@ -63,54 +63,98 @@ VoROVN9JW`833KZhIHS<1`1
 !s100 j^aSc6Jon3ZOUdAA<4Q[M2
 R7
 32
-Z18 !s110 1679586438
+R8
 !i10b 1
-Z19 !s108 1679586438.000000
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/ALU_and_registers.vhd|
-Z21 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/ALU_and_registers.vhd|
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/ALU_and_registers.vhd|
+Z19 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/ALU_and_registers.vhd|
 !i113 1
 R12
 R13
 Aarch_alu_and_registers
-Z22 DEx4 work 9 registers 0 22 2[bi19=QgQ@i3KQPG?_EB2
+Z20 DEx4 work 9 registers 0 22 2[bi19=QgQ@i3KQPG?_EB2
 R14
 R1
 R2
 R3
-Z23 DEx4 work 17 alu_and_registers 0 22 oROVN9JW`833KZhIHS<1`1
+Z21 DEx4 work 17 alu_and_registers 0 22 oROVN9JW`833KZhIHS<1`1
 l15
 L12
 Vb8:`NF]>c9Agc:UU?9z>i3
 !s100 doiILOBR[l_ePL_O[_3cL1
 R7
 32
-R18
+R8
 !i10b 1
+R9
+R18
 R19
-R20
-R21
 !i113 1
 R12
 R13
-Eextend_sign
-Z24 w1679423541
+Econtrol_unit
+Z22 w1680792547
 R1
 R2
 R3
 R4
-Z25 8C:/Users/titi8/OneDrive/Bureau/ARCH/extend_sign.vhd
-Z26 FC:/Users/titi8/OneDrive/Bureau/ARCH/extend_sign.vhd
+Z23 8C:/Users/titi8/OneDrive/Bureau/ARCH/Control_Unit.vhd
+Z24 FC:/Users/titi8/OneDrive/Bureau/ARCH/Control_Unit.vhd
 l0
 L5
-Vf`=G2hNc:5oKS3a_c051S3
-!s100 IS3=1=2nB?1NjV5hYEi8Q0
+V1VM`HPRcLW5Kdo^5;ajWU0
+!s100 XPHLmEX`aP9jAnAC8zo>a2
 R7
 32
-R18
+Z25 !s110 1680799179
 !i10b 1
-R19
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/extend_sign.vhd|
-Z28 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/extend_sign.vhd|
+Z26 !s108 1680799179.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Control_Unit.vhd|
+Z28 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Control_Unit.vhd|
+!i113 1
+R12
+R13
+Aarch_control_unit
+Z29 DEx4 work 19 instruction_decoder 0 22 >O9OTJ8<cmdgYdNdij29=1
+Z30 DEx4 work 18 instruction_memory 0 22 5AeUCGCKo9=LY0@7@M]Hm3
+Z31 DEx4 work 23 instruction_incrementer 0 22 fmf>Mh5NHLI_MEDG3D3hZ2
+R1
+R2
+R3
+Z32 DEx4 work 12 control_unit 0 22 1VM`HPRcLW5Kdo^5;ajWU0
+l21
+L17
+Z33 VOY@B1A;f;IQi<;;L2G=]:0
+Z34 !s100 OnBBR<3ZY8?zM_o0LZlV90
+R7
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R12
+R13
+Eextend_sign
+Z35 w1680162008
+R1
+R2
+R3
+R4
+Z36 8C:/Users/titi8/OneDrive/Bureau/ARCH/extend_sign.vhd
+Z37 FC:/Users/titi8/OneDrive/Bureau/ARCH/extend_sign.vhd
+l0
+L5
+VD04ao[Z3JMW=G;o>cE[N70
+!s100 P78>VEBUjoLlOPclC_gNT0
+R7
+32
+Z38 !s110 1680799178
+!i10b 1
+Z39 !s108 1680799178.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/extend_sign.vhd|
+Z41 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/extend_sign.vhd|
 !i113 1
 R12
 R13
@@ -118,40 +162,40 @@ Aarch_extend_sign
 R1
 R2
 R3
-Z29 DEx4 work 11 extend_sign 0 22 f`=G2hNc:5oKS3a_c051S3
+Z42 DEx4 work 11 extend_sign 0 22 D04ao[Z3JMW=G;o>cE[N70
 l12
 L11
-V>0MHcJQc@eb]fVhOB1C2A1
-!s100 fhEl2UPWaNBG_A_oBPPN51
+V26_i69a[dRz:]XX0E`5J=2
+!s100 @PSo0LD=30>MHNd7X]R=`3
 R7
 32
-R18
+R38
 !i10b 1
-R19
-R27
-R28
+R39
+R40
+R41
 !i113 1
 R12
 R13
 Einstruction_decoder
-Z30 w1680161097
+Z43 w1680796956
 R1
 R2
 R3
 R4
-Z31 8C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Decoder.vhd
-Z32 FC:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Decoder.vhd
+Z44 8C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Decoder.vhd
+Z45 FC:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Decoder.vhd
 l0
 L5
-VE[<JS7g?3L]XiaCal2?Iz2
-!s100 K`dzRjlc]k;`Ce:98HdGX1
+V>O9OTJ8<cmdgYdNdij29=1
+!s100 TBUcHZaiFRjUL0a_B8Y>B3
 R7
 32
-Z33 !s110 1680161112
+R25
 !i10b 1
-Z34 !s108 1680161112.000000
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Decoder.vhd|
-Z36 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Decoder.vhd|
+R26
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Decoder.vhd|
+Z47 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Decoder.vhd|
 !i113 1
 R12
 R13
@@ -159,169 +203,126 @@ Aarch_instruction_decoder
 R1
 R2
 R3
-DEx4 work 19 instruction_decoder 0 22 E[<JS7g?3L]XiaCal2?Iz2
-l20
-L15
-VJ<6MD1GaG0R?8`8`dX:;h2
-!s100 TZW2HL=L0<913UNK0Y<>G3
+R29
+l25
+L20
+V5EUXC?JQ;FFc7YMh88HB?2
+!s100 XCHc]3SMDLcX2CWOm>z4c1
 R7
 32
-R33
+R25
 !i10b 1
-R34
-R35
-R36
+R26
+R46
+R47
 !i113 1
 R12
 R13
 Einstruction_incrementer
-Z37 w1679584590
+Z48 w1680791918
 R1
 R2
 R3
 R4
-Z38 8C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd
-Z39 FC:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd
+Z49 8C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd
+Z50 FC:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd
 l0
 L6
-V]9l1`oKkBDl^8kY03T[X>0
-!s100 134[0C2gA?j6oi5O=ISbL0
+Vfmf>Mh5NHLI_MEDG3D3hZ2
+!s100 M3c0FIKO9n`__6NccRcTB2
 R7
 32
-Z40 !s110 1679586439
+R38
 !i10b 1
-Z41 !s108 1679586439.000000
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd|
-Z43 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd|
+R39
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd|
+Z52 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd|
 !i113 1
 R12
 R13
 Aarch_instruction_incrementer
-Z44 DEx4 work 12 multiplexeur 0 22 ncD80N41A>h77488c2=dO0
-R29
-R1
-R2
-R3
-Z45 DEx4 work 23 instruction_incrementer 0 22 ]9l1`oKkBDl^8kY03T[X>0
-l18
-L14
-VQ5e4_ZYRo:8_oYj1<UE2l0
-!s100 c]=8M5IRiOA2;PZljBCmX1
-R7
-32
-R40
-!i10b 1
-R41
+Z53 DEx4 work 12 multiplexeur 0 22 ncD80N41A>h77488c2=dO0
 R42
-R43
-!i113 1
-R12
-R13
-Einstruction_management
-Z46 w1679506974
 R1
 R2
 R3
-R4
-Z47 8C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Management_Unit.vhd
-Z48 FC:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Management_Unit.vhd
-l0
-L5
-VE0RW6l_=R?j`96B>bCJk]3
-!s100 a9P^:i1cIBjke`C5nZHHe2
+R31
+l19
+L14
+V[]8O0>7XK33k[CG_gI8Qz0
+!s100 jZiz`P=z:kg8a>kQoN@IB3
 R7
 32
-Z49 !s110 1679507159
+R38
 !i10b 1
-Z50 !s108 1679507159.000000
-Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Management_Unit.vhd|
-Z52 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Management_Unit.vhd|
-!i113 1
-R12
-R13
-Aarch_instruction_management
-DEx4 work 18 instruction_memory 0 22 dLYR8?`1c2anU89cR^E^I0
-DEx4 work 23 instruction_incrementer 0 22 2IWz>J?:I5@hPE68gj]J?3
-R1
-R2
-R3
-DEx4 work 22 instruction_management 0 22 E0RW6l_=R?j`96B>bCJk]3
-l15
-L13
-V:jMc7<zaXSmLF<XiZgGEO0
-!s100 m6b3e6Q8QZ5:hKEjC9ZUE3
-R7
-32
-R49
-!i10b 1
-R50
+R39
 R51
 R52
 !i113 1
 R12
 R13
 Einstruction_management_unit
-Z53 w1679584628
+Z54 w1680792270
 R1
 R2
 R3
 R4
-R47
-R48
+Z55 8C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Management_Unit.vhd
+Z56 FC:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Management_Unit.vhd
 l0
 L5
-VKfzklgKPMlj^bR9?eWLI10
-!s100 khYIm=Y:hUaR[Y]V00D_?1
+VWXj>U@O1gGiE=0139EBUg1
+!s100 Ol3^YS`IambQK^jbFiQ_91
 R7
 32
-R40
+R38
 !i10b 1
-R41
-R51
-R52
+R39
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Management_Unit.vhd|
+Z58 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Management_Unit.vhd|
 !i113 1
 R12
 R13
 Aarch_instruction_management_unit
-Z54 DEx4 work 18 instruction_memory 0 22 5AeUCGCKo9=LY0@7@M]Hm3
-R45
+R30
+R31
 R1
 R2
 R3
-Z55 DEx4 work 27 instruction_management_unit 0 22 KfzklgKPMlj^bR9?eWLI10
-l15
-L13
-VgbfHA?Y=jO<YmG`9P2Sa;3
-!s100 e5WnBnD[28k8Ua3^G>a;G2
+Z59 DEx4 work 27 instruction_management_unit 0 22 WXj>U@O1gGiE=0139EBUg1
+l16
+L14
+VbM>:W6PQ<a`bP3`61cDA92
+!s100 4VlNAaP;kjoWg;CPL7EgG2
 R7
 32
-R40
+R38
 !i10b 1
-R41
-R51
-R52
+R39
+R57
+R58
 !i113 1
 R12
 R13
 Einstruction_memory
-Z56 w1679585858
+Z60 w1680798202
 R1
 R2
 R3
 R4
-Z57 8C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Memory.vhd
-Z58 FC:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Memory.vhd
+Z61 8C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Memory.vhd
+Z62 FC:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Memory.vhd
 l0
 L5
 V5AeUCGCKo9=LY0@7@M]Hm3
 !s100 kBY6Kz^4oB0jbRk;<e@Sn0
 R7
 32
-R40
+R38
 !i10b 1
-R41
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Memory.vhd|
-Z60 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Memory.vhd|
+R39
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Memory.vhd|
+Z64 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Memory.vhd|
 !i113 1
 R12
 R13
@@ -329,40 +330,40 @@ Aarch_instruction_memory
 R1
 R2
 R3
-R54
-l32
+R30
+l51
 L12
-VJcG03c0^[D5C5?2lBSGRl1
-!s100 l<Kk80PLRbom`gcVgTLTQ0
+VezzkZAPLzK;AgUc5X?lMl3
+!s100 2aALoPSEd^^kNzL^J17<z2
 R7
 32
-R40
+R38
 !i10b 1
-R41
-R59
-R60
+R39
+R63
+R64
 !i113 1
 R12
 R13
 Ememory
-Z61 w1678977241
+Z65 w1678977241
 R1
 R2
 R3
 R4
-Z62 8C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd
-Z63 FC:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd
+Z66 8C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd
+Z67 FC:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd
 l0
 L5
 V0PISi@kSRo^bM7;WRA]b52
 !s100 O4aMZC8Fd;0N[nhTEbfKQ3
 R7
 32
-R18
+R38
 !i10b 1
-R19
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd|
-Z65 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd|
+R39
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd|
+Z69 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd|
 !i113 1
 R12
 R13
@@ -370,40 +371,40 @@ Aarch_memory
 R1
 R2
 R3
-Z66 DEx4 work 6 memory 0 22 0PISi@kSRo^bM7;WRA]b52
+Z70 DEx4 work 6 memory 0 22 0PISi@kSRo^bM7;WRA]b52
 l33
 L13
 V97^B_Tk1m1BU<7VklnIad1
 !s100 ^TGQSEQ`OEz[2RMlo4Qko0
 R7
 32
-R18
+R38
 !i10b 1
-R19
-R64
-R65
+R39
+R68
+R69
 !i113 1
 R12
 R13
 Emultiplexeur
-Z67 w1677678850
+Z71 w1677678850
 R1
 R2
 R3
 R4
-Z68 8C:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd
-Z69 FC:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd
+Z72 8C:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd
+Z73 FC:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd
 l0
 L5
 VncD80N41A>h77488c2=dO0
 !s100 ?=UJ>NYYNZIPR5V;1d8XE0
 R7
 32
-R18
+R38
 !i10b 1
-R19
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd|
-Z71 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd|
+R39
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd|
+Z75 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd|
 !i113 1
 R12
 R13
@@ -411,86 +412,173 @@ Aarch_multiplexeur
 R1
 R2
 R3
-R44
+R53
 l13
 L12
 VHS`=afCV8mmWFg6N9]m362
 !s100 1Pg<kZkQCH?h^0?B`m0YL2
 R7
 32
-R18
+R38
 !i10b 1
-R19
-R70
-R71
+R39
+R74
+R75
 !i113 1
 R12
 R13
 Eprocessing_unit
-Z72 w1678976050
+Z76 w1680162202
 R1
 R2
 R3
 R4
-Z73 8C:/Users/titi8/OneDrive/Bureau/ARCH/processing_unit.vhd
-Z74 FC:/Users/titi8/OneDrive/Bureau/ARCH/processing_unit.vhd
+Z77 8C:/Users/titi8/OneDrive/Bureau/ARCH/processing_unit.vhd
+Z78 FC:/Users/titi8/OneDrive/Bureau/ARCH/processing_unit.vhd
 l0
 L5
-VaC0N9K;2B:gh0E71oRS7K1
-!s100 TO:bBOJ<=V_^CgjzjfJGP2
+VIERSOf098kDn;Zme^;>8c2
+!s100 O?bkcRaPkW=_EKWh:;7`_1
 R7
 32
-R40
+R38
 !i10b 1
-R41
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/processing_unit.vhd|
-Z76 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/processing_unit.vhd|
+R39
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/processing_unit.vhd|
+Z80 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/processing_unit.vhd|
 !i113 1
 R12
 R13
 Aarch_processing_unit
-R44
-R29
-R66
+R53
+R42
+R70
 R14
-R22
+R20
 R1
 R2
 R3
-Z77 DEx4 work 15 processing_unit 0 22 aC0N9K;2B:gh0E71oRS7K1
+Z81 DEx4 work 15 processing_unit 0 22 IERSOf098kDn;Zme^;>8c2
 l20
 L17
-ViHX[M>5G8Hic_H1ZZa5>O2
-!s100 <Pl0gXZ_BO4YEYj?zcCMC3
+VVVYKCW^_6CASLdNKAW[z?0
+!s100 N1mS]8ai@Gl3[?UQFn7b<2
 R7
 32
-R40
+R38
 !i10b 1
-R41
-R75
-R76
+R39
+R79
+R80
 !i113 1
 R12
 R13
-Eregisters
-Z78 w1678977164
+Eprocessor
+Z82 w1680786882
 R1
 R2
 R3
 R4
-Z79 8C:/Users/titi8/OneDrive/Bureau/ARCH/Registers.vhd
-Z80 FC:/Users/titi8/OneDrive/Bureau/ARCH/Registers.vhd
+Z83 8C:/Users/titi8/OneDrive/Bureau/ARCH/Processor.vhd
+Z84 FC:/Users/titi8/OneDrive/Bureau/ARCH/Processor.vhd
+l0
+L5
+V_e2nDMF[QmIQ2h4:8lT5P3
+!s100 hknlUM<b9T7h90FSBoc8D2
+R7
+32
+R25
+!i10b 1
+R26
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Processor.vhd|
+Z86 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Processor.vhd|
+!i113 1
+R12
+R13
+Aarch_processor
+R29
+R59
+Z87 DEx4 work 24 processor_state_register 0 22 RWA]1`aOmGR>1662khD8Y1
+R53
+R81
+R1
+R2
+R3
+DEx4 work 9 processor 0 22 _e2nDMF[QmIQ2h4:8lT5P3
+l22
+L8
+V;WUBnIS`?8klRQBM?dil^0
+!s100 S`bLT7622Li2e^L]L?QT30
+R7
+32
+R25
+!i10b 1
+R26
+R85
+R86
+!i113 1
+R12
+R13
+Eprocessor_state_register
+Z88 w1680775412
+R1
+R2
+R3
+R4
+Z89 8C:/Users/titi8/OneDrive/Bureau/ARCH/Processor_State_Register.vhd
+Z90 FC:/Users/titi8/OneDrive/Bureau/ARCH/Processor_State_Register.vhd
+l0
+L5
+VRWA]1`aOmGR>1662khD8Y1
+!s100 e>>L9Rkb2PcaE?iVe6?Qg0
+R7
+32
+R25
+!i10b 1
+R26
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Processor_State_Register.vhd|
+Z92 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Processor_State_Register.vhd|
+!i113 1
+R12
+R13
+Aarch_processor_state_register
+R1
+R2
+R3
+R87
+l13
+L12
+VLm[S?iQz1bE[SL6T5]5hU2
+!s100 B:QCgCc6:B`BGVz]V7OJb2
+R7
+32
+R25
+!i10b 1
+R26
+R91
+R92
+!i113 1
+R12
+R13
+Eregisters
+Z93 w1678977164
+R1
+R2
+R3
+R4
+Z94 8C:/Users/titi8/OneDrive/Bureau/ARCH/Registers.vhd
+Z95 FC:/Users/titi8/OneDrive/Bureau/ARCH/Registers.vhd
 l0
 L5
 V2[bi19=QgQ@i3KQPG?_EB2
 !s100 g1@gG`>lAL3gE=M`oaJ=P1
 R7
 32
-R18
+R8
 !i10b 1
-R19
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Registers.vhd|
-Z82 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Registers.vhd|
+R9
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Registers.vhd|
+Z97 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Registers.vhd|
 !i113 1
 R12
 R13
@@ -498,29 +586,29 @@ Aarch_registers
 R1
 R2
 R3
-R22
+R20
 l32
 L14
 V<?QQbeMcBY46lhFFla<KN0
 !s100 @3zA_Wz_S2:=oi=ZJZUOc3
 R7
 32
-R18
+R8
 !i10b 1
-R19
-R81
-R82
+R9
+R96
+R97
 !i113 1
 R12
 R13
 Etb_alu
-Z83 w1677142781
+Z98 w1677142781
 R1
 R2
 R3
 R4
-Z84 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU.vhd
-Z85 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU.vhd
+Z99 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU.vhd
+Z100 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU.vhd
 l0
 L5
 VTd^BSc6;CiiK[>n=o@1:E0
@@ -530,8 +618,8 @@ R7
 R8
 !i10b 1
 R9
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU.vhd|
-Z87 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU.vhd|
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU.vhd|
+Z102 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU.vhd|
 !i113 1
 R12
 R13
@@ -550,35 +638,35 @@ R7
 R8
 !i10b 1
 R9
-R86
-R87
+R101
+R102
 !i113 1
 R12
 R13
 Etb_alu_and_registers
-Z88 w1677180964
+Z103 w1677180964
 R1
 R2
 R3
 R4
-Z89 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd
-Z90 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd
+Z104 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd
+Z105 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd
 l0
 L5
 V6g@Fo:NXF]ff9VIE6IDi73
 !s100 `HebQ^ZQ1fL]NEd95gR1j2
 R7
 32
-R18
+R8
 !i10b 1
-R19
-Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd|
-Z92 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd|
+R9
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd|
+Z107 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd|
 !i113 1
 R12
 R13
 Aarch_tb_alu_and_registers
-R23
+R21
 R1
 R2
 R3
@@ -589,164 +677,206 @@ V6LV1b<A:m_OgU@SfQRBQ32
 !s100 @^L<=fM^hF8Z8260zn@mU2
 R7
 32
-R18
+R8
 !i10b 1
-R19
-R91
-R92
+R9
+R106
+R107
 !i113 1
 R12
 R13
 Etb_extend_sign
-Z93 w1677258190
+Z108 w1680167781
 R1
 R2
 R3
 R4
-Z94 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_extend_sign.vhd
-Z95 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_extend_sign.vhd
+Z109 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_extend_sign.vhd
+Z110 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_extend_sign.vhd
 l0
 L5
 V:i=zHH6P;E15LHmOT2X_02
 !s100 fUh`CMfDWMbh`zIbgV7eb0
 R7
 32
-R18
+R38
 !i10b 1
-R19
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_extend_sign.vhd|
-Z97 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_extend_sign.vhd|
+R39
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_extend_sign.vhd|
+Z112 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_extend_sign.vhd|
 !i113 1
 R12
 R13
 Aarch_tb_extend_sign
-R29
+R42
 R1
 R2
 R3
 DEx4 work 14 tb_extend_sign 0 22 :i=zHH6P;E15LHmOT2X_02
 l19
 L8
-V1RLkldDdc1NI=KKa4@n7j3
-!s100 ecXzIcGL`ECoKlEdVZP=50
+V7[ejQRiPa:kHIj^H42B500
+!s100 MRg^UNO=Tc2ZARDFJol_m0
 R7
 32
-R18
+R38
 !i10b 1
-R19
-R96
-R97
+R39
+R111
+R112
 !i113 1
 R12
 R13
-Etb_instruction_incrementer
-Z98 w1679586417
+Etb_instruction_decoder
+Z113 w1680169387
 R1
 R2
 R3
 R4
-Z99 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Incrementer.vhd
-Z100 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Incrementer.vhd
+Z114 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Decoder.vhd
+Z115 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Decoder.vhd
+l0
+L5
+Vkl_kT<;PFKUU2hH<g9M=Y0
+!s100 FW@]inYNjH;nVNXgL94=?2
+R7
+32
+R25
+!i10b 1
+R26
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Decoder.vhd|
+Z117 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Decoder.vhd|
+!i113 1
+R12
+R13
+Aarch_tb_instruction_decoder
+R29
+R1
+R2
+R3
+DEx4 work 22 tb_instruction_decoder 0 22 kl_kT<;PFKUU2hH<g9M=Y0
+l20
+L8
+VRhV5UU4S:<KSdI:AKb3I90
+!s100 CBG[T;VD^EKAGOD;7ZYHR1
+R7
+32
+R25
+!i10b 1
+R26
+R116
+R117
+!i113 1
+R12
+R13
+Etb_instruction_incrementer
+Z118 w1680167757
+R1
+R2
+R3
+R4
+Z119 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Incrementer.vhd
+Z120 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Incrementer.vhd
 l0
 L5
 V0<kEYLA94JCmh20QEY4dX3
 !s100 RE:8mC1JDKA2Degn5j?jg3
 R7
 32
-R40
+R25
 !i10b 1
-R41
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Incrementer.vhd|
-Z102 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Incrementer.vhd|
+R39
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Incrementer.vhd|
+Z122 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Incrementer.vhd|
 !i113 1
 R12
 R13
 Aarch_tb_instruction_incrementer
-R45
+R31
 R1
 R2
 R3
 DEx4 work 26 tb_instruction_incrementer 0 22 0<kEYLA94JCmh20QEY4dX3
 l16
 L8
-VIB1RAX@Do=W^o19kk?RiY2
-!s100 5DMAYoicbeJm83E8gUF1]0
+VSWZTD=<Fln09dn?1n4lK?0
+!s100 TCA]HMG2j8_Nj2anh_fnJ1
 R7
 32
-R40
+R25
 !i10b 1
-R41
-R101
-R102
+R39
+R121
+R122
 !i113 1
 R12
 R13
 Etb_instruction_management_unit
-Z103 w1679585222
+Z123 w1680786610
 R1
 R2
 R3
 R4
-Z104 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd
-Z105 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd
+Z124 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd
+Z125 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd
 l0
 L5
 VeM0;Zj[ZkC;iU3dWcR4h^1
 !s100 8ncD=XUNB73KX`Zn6LCA[2
 R7
 32
-R40
+R25
 !i10b 1
-R41
-Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd|
-Z107 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd|
+R26
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd|
+Z127 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd|
 !i113 1
 R12
 R13
 Aarch_tb_instruction_management_unit
-R55
+R59
 R1
 R2
 R3
 DEx4 work 30 tb_instruction_management_unit 0 22 eM0;Zj[ZkC;iU3dWcR4h^1
 l15
 L8
-Vo9KKTa7YFW2g8lB:>@==I2
-!s100 hM;PdW7z4H;Fe^ID`g1Q]1
+V8;VF8Fh3;KKLJ01YLOTnB3
+!s100 Z5hH[C81IGWTeLCch4AKo2
 R7
 32
-R40
+R25
 !i10b 1
-R41
-R106
-R107
+R26
+R126
+R127
 !i113 1
 R12
 R13
 Etb_memory
-Z108 w1677260944
+Z128 w1677260944
 R1
 R2
 R3
 R4
-Z109 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_memory.vhd
-Z110 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_memory.vhd
+Z129 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_memory.vhd
+Z130 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_memory.vhd
 l0
 L5
 VVzQg[]j61C>k9Qii^WLOl1
 !s100 _ajLBD@ZK;Kf4@8YkDFgZ2
 R7
 32
-R40
+R38
 !i10b 1
-R41
-Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_memory.vhd|
-Z112 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_memory.vhd|
+R39
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_memory.vhd|
+Z132 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_memory.vhd|
 !i113 1
 R12
 R13
 Aarch_tb_memory
-R66
+R70
 R1
 R2
 R3
@@ -757,38 +887,38 @@ VzoZSegI[@`5m^l?feJ:`?3
 !s100 =P<QDAJ<nPdXeO?iVSHB32
 R7
 32
-R40
+R38
 !i10b 1
-R41
-R111
-R112
+R39
+R131
+R132
 !i113 1
 R12
 R13
 Etb_multiplexeur
-Z113 w1677679078
+Z133 w1677679078
 R1
 R2
 R3
 R4
-Z114 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_multiplexeur.vhd
-Z115 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_multiplexeur.vhd
+Z134 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_multiplexeur.vhd
+Z135 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_multiplexeur.vhd
 l0
 L5
 Vze9Sn8jMH`C6X7;I:VcfC2
 !s100 3>SeWJ=DUVNZiLUn?nTVJ3
 R7
 32
-R18
+R38
 !i10b 1
-R19
-Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_multiplexeur.vhd|
-Z117 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_multiplexeur.vhd|
+R39
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_multiplexeur.vhd|
+Z137 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_multiplexeur.vhd|
 !i113 1
 R12
 R13
 Aarch_tb_multiplexeur
-R44
+R53
 R1
 R2
 R3
@@ -799,38 +929,38 @@ VF<S^nXG_7h_MEnk3:f1EI2
 !s100 Cb:5M]fDA@fhm_nzI5gk52
 R7
 32
-R18
+R38
 !i10b 1
-R19
-R116
-R117
+R39
+R136
+R137
 !i113 1
 R12
 R13
 Etb_processing_unit
-Z118 w1678793181
+Z138 w1678793181
 R1
 R2
 R3
 R4
-Z119 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd
-Z120 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd
+Z139 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd
+Z140 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd
 l0
 L5
 V:SOm[BM5>R6gLVRZBDYDz0
 !s100 [P<RXY<3oD_U_4`h8UZQk0
 R7
 32
-R40
+R38
 !i10b 1
-R41
-Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd|
-Z122 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd|
+R39
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd|
+Z142 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd|
 !i113 1
 R12
 R13
 Aarch_tb_processing_unit
-R77
+R81
 R1
 R2
 R3
@@ -841,38 +971,38 @@ VZLHN:lQ6XFY[k:;>UgNYQ2
 !s100 CmPNaDGZd22cR;miT_PX00
 R7
 32
-R40
+R38
 !i10b 1
-R41
-R121
-R122
+R39
+R141
+R142
 !i113 1
 R12
 R13
 Etb_registers
-Z123 w1677260915
+Z143 w1677260915
 R1
 R2
 R3
 R4
-Z124 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Registers.vhd
-Z125 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_Registers.vhd
+Z144 8C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Registers.vhd
+Z145 FC:/Users/titi8/OneDrive/Bureau/ARCH/TB_Registers.vhd
 l0
 L5
 VnXN`=9M9iHCWm^_8EQoRl0
 !s100 >fze4O22i8=kzY]B69fm`0
 R7
 32
-R18
+R8
 !i10b 1
-R19
-Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Registers.vhd|
-Z127 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Registers.vhd|
+R9
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Registers.vhd|
+Z147 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Registers.vhd|
 !i113 1
 R12
 R13
 Aarch_tb_registers
-R22
+R20
 R1
 R2
 R3
@@ -883,52 +1013,11 @@ V8?01C<ShzmQ30o@_7l:3V1
 !s100 z?We02^HmclnQigMb`@]N1
 R7
 32
-R18
+R8
 !i10b 1
-R19
-R126
-R127
-!i113 1
-R12
-R13
-Eunit_control
-Z128 w1680091304
-R1
-R2
-R3
-R4
-Z129 8C:/Users/titi8/OneDrive/Bureau/ARCH/Unit_control.vhd
-Z130 FC:/Users/titi8/OneDrive/Bureau/ARCH/Unit_control.vhd
-l0
-L5
-VmHI;:2jnkg5?U0=_Q`Lh=1
-!s100 0E1nCgi;8mR=ogn`YcP[80
-R7
-32
-Z131 !s110 1680091308
-!i10b 1
-Z132 !s108 1680091308.000000
-Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/titi8/OneDrive/Bureau/ARCH/Unit_control.vhd|
-Z134 !s107 C:/Users/titi8/OneDrive/Bureau/ARCH/Unit_control.vhd|
-!i113 1
-R12
-R13
-Aarch_unit_control
-R1
-R2
-R3
-DEx4 work 12 unit_control 0 22 mHI;:2jnkg5?U0=_Q`Lh=1
-l13
-L12
-VCdPJT`g?560RSZgnTIPoL0
-!s100 WJgP96G<4hCa=jXmUUZin2
-R7
-32
-R131
-!i10b 1
-R132
-R133
-R134
+R9
+R146
+R147
 !i113 1
 R12
 R13

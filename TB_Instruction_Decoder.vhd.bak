@@ -1,0 +1,74 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+Entity TB_Instruction_Decoder is
+end entity;
+
+architecture arch_TB_Instruction_Decoder of TB_Instruction_Decoder is
+constant N : positive :=32;
+constant J : positive :=24; 
+constant I : positive :=8;
+
+signal Instruction,PSR : std_logic_vector(N-1 downto 0);
+signal nPCsel,RegWr,ALUSrc,PSREn,MemWr,WrSrc,RegSel : std_logic;
+signal OP : std_logic_vector(1 downto 0);
+signal Rn,Rd,Rm : std_logic_vector(3 downto 0);
+signal Imm : std_logic_vector(I-1 downto 0);
+signal Offset : std_logic_vector(J-1 downto 0);
+
+begin
+
+E0:Entity work.Instruction_Decoder generic map(32,J,I) port map(Instruction,PSR,nPCsel,RegWr,ALUSrc,PSREn,MemWr,WrSrc,RegSel,OP,Rn,Rd,Rm,Imm,Offset);
+process
+begin
+	--Initialisation:
+	Instruction<=(others=>'0');
+	PSR<=(others=>'0');
+	wait for 2 ns;
+	
+	--ADD(Immediate):
+	Instruction<="11100010100011111111000011111111";
+	PSR<=(others=>'0');
+	wait for 4 ns;
+
+	--ADD (Register):
+	Instruction<="11100000100011111111000000001111";
+	PSR<=(others=>'0');
+	wait for 6 ns;
+
+	--MOV (Immediate):
+	Instruction<="11100011101000001111000-11111111";
+	PSR<=(others=>'0');
+	wait for 8 ns;
+	
+	--CMP (Immediate):
+	Instruction<="11100011010111110000000011111111";
+	PSR<=(others=>'0');
+	wait for 10 ns;
+	
+	--LDR (Immediate):
+	Instruction<="11100110000111111111----11111111";
+	PSR<=(others=>'0');
+	wait for 12 ns;
+	
+	--STD (Immediate):
+	Instruction<="111001100000XXXXXXXX----XXXXXXXX";
+	PSR<=(others=>'0');
+	wait for 14 ns;
+
+	--B (Always):
+	Instruction<="11101010XXXXXXXXXXXXXXXXXXXXXXXX";
+	PSR<=(others=>'0');
+	wait for 16 ns;
+	
+	--B (If Less Than):
+	Instruction<="10111010XXXXXXXXXXXXXXXXXXXXXXXX";
+	PSR<=(others=>'0');
+	wait for 18 ns;
+	PSR<="10000000000000000000000000000000";
+	
+
+end process;
+
+end architecture;

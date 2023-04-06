@@ -14,11 +14,11 @@ begin
 --S(J-1 downto 0)<=E;
 process(E)
 begin
-	if E(N-1)='1' then
+	if E(J-1)='1' then
 		S<=(others => '1');
 	else
 		S<=(others => '0');
 	end if;
-	S(N-1 downto 0)<=E;
+	S(J-1 downto 0)<=E;
 end process;
 end architecture;
