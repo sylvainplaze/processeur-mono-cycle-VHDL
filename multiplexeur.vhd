@@ -11,5 +11,5 @@ end entity;
 
 architecture arch_multiplexeur of multiplexeur is
 begin
-S<=A when M='0' else B;
+S<=B when M='1' else A;
 end architecture;

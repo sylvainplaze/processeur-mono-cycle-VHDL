@@ -8,10 +8,10 @@ end entity;
 architecture arch_TB_Instruction_Management_Unit of TB_Instruction_Management_Unit is
 constant J : positive :=24;
 constant N : positive :=32; 
-signal nPCsel,RESET : std_logic :='0';
+signal nPCsel,RESET : std_logic;
 signal CLK : std_logic :='0';
-signal Offset : std_logic_vector(J-1 downto 0) :=(others=>'0');
-signal Instruction : std_logic_vector(N-1 downto 0):=(others=>'0');
+signal Offset : std_logic_vector(J-1 downto 0);
+signal Instruction : std_logic_vector(N-1 downto 0);
 begin
 
 E0:Entity work.Instruction_Management_Unit generic map(N,J) port map(nPCsel,RESET,CLK,Offset,Instruction);
@@ -22,7 +22,7 @@ CLK<='1' after 100 ps when CLK='0' else '0' after 100 ps when CLK='1';
 process
 begin
 	--Initialisation:
-	RESET<='1';
+	RESET<='0';
 	nPCsel<='0';
 	Offset<=std_logic_vector(To_signed(0,J));
 	wait for 2 ns;

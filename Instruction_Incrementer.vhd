@@ -29,9 +29,12 @@ process(CLK)
 begin
 	if (RESET='1') then
 		PC_MEMORY_OUT<= (others=>'0');
+	--elsif(rising_edge(CLK) and PC_MEMORY_OUT>std_logic_vector(TO_signed(63,N))) then
+		--PC_MEMORY_OUT<= (others=>'0');
 	elsif (rising_edge(CLK)) then
 		PC_MEMORY_OUT<=OUT_MUX;
 	end if;
 end process;
+
 addr<=PC_MEMORY_OUT;
 end architecture;

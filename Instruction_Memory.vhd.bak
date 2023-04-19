@@ -41,7 +41,7 @@ end loop;
 	--BAL:
 	result(8) :="11101010" & "111111111111111111110111"; 
 
-	result(63):=X"00000038";--56 en decimal
+	result(63):="00000000000000000000000000000000";--Exit programme --X"000000000000";56 en decimal
 	return result;
 end init_banc;
 
@@ -51,6 +51,7 @@ signal Banc: table:=init_banc;
 begin
 
 --Partie Lecture:
-Instruction<=Banc(To_integer(unsigned(addr)));
+Instruction<=Banc(To_integer(signed(addr)));
+--Voir pour rajouter une sécuriter pour ne pas dépasser la valeur 64 ou ajouter cela dans instruction incrementer
 end architecture;
 

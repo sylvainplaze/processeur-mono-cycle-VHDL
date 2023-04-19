@@ -18,16 +18,18 @@ E0:Entity work.Instruction_Management_Unit generic map(N,J) port map(nPCsel,RESE
 
 CLK<='1' after 100 ps when CLK='0' else '0' after 100 ps when CLK='1';
 
+--Use this process if the Instruction_Memory have an PRGM:
 process
 begin
 	--Initialisation:
-	RESET<='1';
+	RESET<='0';
 	nPCsel<='0';
 	Offset<=std_logic_vector(To_signed(0,J));
 	wait for 2 ns;
 
 end process;
 
+--Use this process if Instruction_Memory don't have an PRGM:
 --process
 --begin
 --	--Initialisation:

@@ -27,11 +27,11 @@ end loop;
 	--MOV:
 	result(1) :="111000111010" & "0000" & "0010" & "0000" & "00000000";
 	--LDR:
-	result(2) :="111001100001" & "0001" & "0000" & "000000000000";--vérifier
+	result(2) :="111001100001" & "0001" & "0000" & "000000000000";
 	--ADDr:
 	result(3) :="111000001000" & "0010" & "0010" & "00000000" & "0000";
 	--ADDi:
-	result(4) :="111000001000" & "0001" & "0001" & "0000" & "00000001";
+	result(4) :="111000001000" & "0001" & "0001" & "0000" & "00000001";--vérifier
 	--CMP:
 	result(5) :="111000110101" & "0001" & "0000" & "0000" & "00101010";
 	--BLT:
@@ -41,7 +41,7 @@ end loop;
 	--BAL:
 	result(8) :="11101010" & "111111111111111111110111"; 
 
-	result(63):=X"00000038";--56 en decimal
+	result(63):="00000000000000000000000000000000";--Exit programme --X"000000000000";56 en decimal
 	return result;
 end init_banc;
 
@@ -52,5 +52,6 @@ begin
 
 --Partie Lecture:
 Instruction<=Banc(To_integer(signed(addr)));
+--Voir pour rajouter une sécuriter pour ne pas dépasser la valeur 64 ou ajouter cela dans instruction incrementer
 end architecture;
 

@@ -10,8 +10,8 @@ constant N : positive :=32;
 constant J : positive :=24;
 constant I : positive :=8;
 
-signal CLK,RESET : std_logic :='0';
-signal We,WrEn,WrSrc,ALUSrc,nPCsel,RegWr,PSREn,MemWr,RegSel,flag: std_logic;
+signal CLK,RESET,nPCsel : std_logic :='0';
+signal We,WrEn,WrSrc,ALUSrc,RegWr,PSREn,MemWr,RegSel,flag: std_logic;
 signal op : std_logic_vector(1 downto 0);
 signal Rw,Ra,Rb,Rd,Rm : std_logic_vector(3 downto 0);
 signal IMM : std_logic_vector(I-1 downto 0);
@@ -44,7 +44,7 @@ E1 : Entity work.Instruction_Management_Unit generic map(N,J) port map(nPCsel,RE
 --Offset : in std_logic_vector(J-1 downto 0);
 --Instruction : out std_logic_vector(N-1 downto 0));
 
-E3 : Entity work.Instruction_Decoder generic map(N,J,I) port map(Instruction,PSR_State,nPCsel,RegWr,ALUSrc,PSREn,MemWr,WrSrc,RegSel,OP,Ra,Rd,Rm,IMM,Offset);
+E3 : Entity work.Instruction_Decoder generic map(N,J,I) port map(Instruction,PSR_State,CLK,nPCsel,RegWr,ALUSrc,PSREn,MemWr,WrSrc,RegSel,OP,Ra,Rd,Rm,IMM,Offset);
 
 --Instruction,PSR : in std_logic_vector(N-1 downto 0);
 --nPCsel,RegWr,ALUSrc,PSREn,MemWr,WrSrc,RegSel : out std_logic;

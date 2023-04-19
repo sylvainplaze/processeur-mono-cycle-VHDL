@@ -40,16 +40,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Registers
 -- Compiling architecture arch_Registers of Registers
 
-} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity TB_Instruction_Management_Unit
--- Compiling architecture arch_TB_Instruction_Management_Unit of TB_Instruction_Management_Unit
--- Loading entity Instruction_Management_Unit
-
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Incrementer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Incrementer.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -59,6 +49,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity TB_Instruction_Incrementer
 -- Compiling architecture arch_TB_Instruction_Incrementer of TB_Instruction_Incrementer
 -- Loading entity Instruction_Incrementer
+
+} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/TB_Instruction_Management_Unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TB_Instruction_Management_Unit
+-- Compiling architecture arch_TB_Instruction_Management_Unit of TB_Instruction_Management_Unit
+-- Loading entity Instruction_Management_Unit
 
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/ALU_and_registers.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/ALU_and_registers.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -125,15 +125,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling architecture arch_TB_memory of TB_memory
 -- Loading entity memory
 
-} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity multiplexeur
--- Compiling architecture arch_multiplexeur of multiplexeur
-
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/TB_ALU_and_registers.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -165,15 +156,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading entity Instruction_Memory
 -- Loading entity Instruction_Decoder
 
-} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd
+} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/multiplexeur.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity TB_processing_unit
--- Compiling architecture arch_TB_processing_unit of TB_processing_unit
--- Loading entity processing_unit
+-- Compiling entity multiplexeur
+-- Compiling architecture arch_multiplexeur of multiplexeur
 
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/memory.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -184,6 +174,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity memory
 -- Compiling architecture arch_memory of memory
 
+} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/TB_processing_unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TB_processing_unit
+-- Compiling architecture arch_TB_processing_unit of TB_processing_unit
+-- Loading entity processing_unit
+
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/ALU.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -192,15 +192,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity ALU
 -- Compiling architecture arch_ALU of ALU
-
-} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Memory.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Instruction_Memory
--- Compiling architecture arch_Instruction_Memory of Instruction_Memory
 
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/Processor_State_Register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/Processor_State_Register.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -221,17 +212,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling architecture arch_TB_extend_sign of TB_extend_sign
 -- Loading entity extend_sign
 
-} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Instruction_Incrementer
--- Compiling architecture arch_Instruction_Incrementer of Instruction_Incrementer
--- Loading entity extend_sign
--- Loading entity multiplexeur
-
 } {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Management_Unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Management_Unit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -242,5 +222,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling architecture arch_Instruction_Management_Unit of Instruction_Management_Unit
 -- Loading entity Instruction_Incrementer
 -- Loading entity Instruction_Memory
+
+} {} {}} C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/titi8/OneDrive/Bureau/ARCH/Instruction_Incrementer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Instruction_Incrementer
+-- Compiling architecture arch_Instruction_Incrementer of Instruction_Incrementer
+-- Loading entity extend_sign
+-- Loading entity multiplexeur
 
 } {} {}}
