@@ -35,7 +35,7 @@ instr_courante<=ADDi when Instruction(31 downto 20)="111000101000" else
 		EXT when Instruction(31 downto 20)="000000000000";
 
 --Execution de l'instuction déterminée par l'envoie des commandes:
-process(instr_courante)
+process(Instruction,instr_courante)
 begin
 --	if instr_courante=ADDi then
 --			nPCsel<='0';
