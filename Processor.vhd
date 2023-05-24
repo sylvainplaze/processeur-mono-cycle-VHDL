@@ -10,8 +10,9 @@ constant N : positive :=32;
 constant J : positive :=24;
 constant I : positive :=8;
 
-signal CLK,RESET,nPCsel : std_logic :='0';
-signal We,WrEn,WrSrc,ALUSrc,RegWr,PSREn,MemWr,RegSel,flag: std_logic;
+signal CLK : std_logic :='1';
+signal RESET,nPCsel : std_logic :='0';
+signal WrEn,WrSrc,ALUSrc,RegWr,PSREn,MemWr,RegSel,flag: std_logic;
 signal op : std_logic_vector(1 downto 0);
 signal Rw,Ra,Rb,Rd,Rm : std_logic_vector(3 downto 0);
 signal IMM : std_logic_vector(I-1 downto 0);
@@ -19,12 +20,15 @@ signal Offset : std_logic_vector(J-1 downto 0);
 signal BusW,Instruction,PSR,PSR_State : std_logic_vector(N-1 downto 0);
 signal Look_addr : std_logic_vector(31 downto 0);
 
+signal BusA : std_logic_vector(N-1 downto 0);
+signal BusB : std_logic_vector(N-1 downto 0);
+
 begin
 --Génération de l'horloge : 5Ghz
 CLK<='1' after 100 ps when CLK='0' else '0' after 100 ps when CLK='1';
 
 
-E0 : Entity work.processing_unit generic map(N,I) port map(CLK,We,WrEn,ALUSrc,WrSrc,RESET,IMM,Rw,Ra,Rb,OP,flag,BusW);
+E0 : Entity work.processing_unit generic map(N,I) port map(CLK,RegWr,WrEn,ALUSrc,WrSrc,RESET,IMM,Rw,Ra,Rb,OP,flag,BusW,BusA,BusB);
 --CLK,We,WrEn,COM1,COM2,RESET : in std_logic;
 --	imm : in std_logic_vector(I-1 downto 0);
 --	RW,RA,RB : in std_logic_vector(3 downto 0);

@@ -198,8 +198,7 @@ begin
 			MemWr<='0';
 			WrSrc<='0';
 			RegSel<='0';
-			Rn<="0000";
-			--Rn<=Instruction(19 downto 16);
+			Rn<=Instruction(19 downto 16);
 			Imm<=Instruction(7 downto 0);
 		when LDR =>
 			nPCsel<='0';

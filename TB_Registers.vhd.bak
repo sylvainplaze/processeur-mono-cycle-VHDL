@@ -6,7 +6,7 @@ Entity TB_Registers is
 end entity;
 
 architecture arch_TB_Registers of TB_Registers is
-signal CLK : std_logic;
+signal CLK : std_logic :='0';
 signal W : std_logic_vector(31 downto 0);
 signal WE : std_logic;
 signal RESET : std_logic;

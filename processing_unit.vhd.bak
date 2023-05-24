@@ -6,11 +6,13 @@ Entity processing_unit is
 generic(N : positive :=32;
 	I : positive :=8);
 port(	CLK,We,WrEn,COM1,COM2,RESET : in std_logic;
-	imm : in std_logic_vector(J-1 downto 0);
+	imm : in std_logic_vector(I-1 downto 0);
 	RW,RA,RB : in std_logic_vector(3 downto 0);
 	OP : in std_logic_vector(1 downto 0);
 	flag : out std_logic;
-	BusW : out std_logic_vector(31 downto 0)
+	BusW : out std_logic_vector(N-1 downto 0);
+	BusA : out std_logic_vector(N-1 downto 0);
+	BusB : out std_logic_vector(N-1 downto 0)
 );
 end entity;
 
@@ -20,8 +22,12 @@ signal Bus_W, Bus_A, Bus_B, EXS_OUT, Mux_F_OUT, ALU_OUT, Data_OUT : std_logic_ve
 begin
 
 BusW<=Bus_W;--Recopie du signal pour l'avoir en sortie du block
+BusA<=Bus_A;
+BusB<=Bus_B;
 
-E1:Entity work.registers port map(CLK,Bus_W,WE,RESET,RW,RA,RB,Bus_A,Bus_B);
+CLKP<='1' after 10 ps when CLK='0' else '0' after 10 ps when CLK='1';
+
+E1:Entity work.registers port map(CLKP,Bus_W,WE,RESET,RW,RA,RB,Bus_A,Bus_B);
 
 E2:Entity work.ALU port map(Bus_A,Mux_F_OUT,OP,ALU_OUT,flag);
 
